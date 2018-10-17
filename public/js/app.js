@@ -47373,7 +47373,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
         axios.get('/api/user').then(function (response) {
             _this.user = response.data;
-        }).cath(function (err) {
+        }).catch(function (err) {
             console.log(err);
         });
     }

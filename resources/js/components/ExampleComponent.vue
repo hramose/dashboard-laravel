@@ -28,7 +28,7 @@
             axios.get('/api/user')
                 .then(response => {
                     this.user = response.data;
-                }).cath(err => {
+                }).catch(err => {
                     console.log(err);
                 });
         }
